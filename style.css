@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: #000;
+}
+
+button {
+  font-family: consolas;
+  font-size: 1.4rem;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  border: 5px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  outline: none;
+}
